@@ -92,7 +92,7 @@ const end = () => {
         hole.classList.remove("hit"); // 把顏色重置
     }
     btnStart.disabled = false;
-    alert(`恭喜你抓到${score}隻小妖怪`);
+    alert(`恭喜你抓到${score}隻小惡魔`);
 
     if (highStorage === null || high.score > score) {
         win.play();
